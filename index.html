@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study English</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+
+
+
+<!-- course section ends -->
+<section class="course" id="course">
+
+    <h1 class="heading">Test Đảm Bảo Chất Lượng Kiểm Thử</h1> 
+    <div id="question"></div>
+    <div id="container">
+  <div class="course__choice">
+    <div id="easy">Easy Quiz</div>
+    <!-- <div id="difficult">Difficult Quiz</div> -->
+  </div>
+        <div id="quiz" style="display: none">
+           
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress">
+             
+            </div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+        <div id="date" style="display: none "></div>
+        <div id="reload" onClick="window.location.reload(true)" style="display: none " >Chơi Lại</div>
+    </div>   
+
+    
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/boxquiz.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
