@@ -390,7 +390,10 @@ top:70px;
     padding : 15px;
     font-size: 15px;
 }
-
+.dapandung{
+    font-size: 13px;
+    color: blue;
+}
 #choices{
     /* background-color: white; */
     display:  block;
@@ -446,12 +449,12 @@ top:70px;
 
 #progress{
 
-    width : 500px;
+    width : auto;
     position: absolute;
-    bottom : 0px;
-    right : 0px;
+    /* bottom : 0px;
+    right : 0px; */
     padding:5px;
-    text-align: right;
+    text-align: left;
 }
 .prog{
 
