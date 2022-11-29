@@ -340,7 +340,7 @@ let count = 0;
 let countdif = 0;
 let stt = 1;
 // times easy
-const questionTime = 15; // 10s
+const questionTime = 80; // 10s
 // tines difficult
 const questionTimedif = 6; //6s
 
